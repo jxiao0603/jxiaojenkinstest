@@ -14,8 +14,6 @@ public class UnitTest1 {
 
         int c = a + b;
         int r = new Demo1().intAdd(a, b);
-        Assert.assertTrue("intAdd(a, b)", c == r);
+        Assert.assertTrue("检查intAdd(a, b)函数返回值是否正确", c == r);
     }
 }
-
-//test
